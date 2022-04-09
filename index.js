@@ -25,7 +25,7 @@ function addTask() {
 
 
 function addCategory() {
-  const Updated_Category = getUpdated_CategoryText();
+  const Updated_Category = getNewCategoryText();
   let Updated_Categorysml = Updated_Category.toLowerCase();
   let categoriessml = categories.map((category) => category.toLowerCase());
   let indx = categoriessml.indexOf(Updated_Categorysml);
